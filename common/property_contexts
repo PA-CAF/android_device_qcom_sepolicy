@@ -56,7 +56,6 @@ camera.                    u:object_r:camera_prop:s0
 persist.camera.            u:object_r:camera_prop:s0
 vendor.spcom.              u:object_r:spcomlib_prop:s0
 sdm.idle_time              u:object_r:sdm_idle_time_prop:s0
-ro.sf.lcd_density             u:object_r:sf_lcd_density_prop:s0
 ro.vendor.scr_enabled         u:object_r:scr_enabled_prop:s0
 vendor.bg_reset               u:object_r:bg_daemon_prop:s0
 vendor.bg.boot_complete       u:object_r:bg_boot_complete_prop:s0
@@ -132,7 +131,5 @@ persist.vendor.mmi.        u:object_r:mmi_prop:s0
 
 ctl.vendor.imsrcsservice   u:object_r:ctl_vendor_imsrcsservice_prop:s0
 
-#qdcm socket service
-vendor.display.qdcm_socket_service u:object_r:vendor_qdcmss_prop:s0
-
-ro.radio.noril          u:object_r:radio_noril_prop:s0
+wlan.driver.ath            u:object_r:wcnss_prop:s0
+wlan.driver.config         u:object_r:wcnss_prop:s0
